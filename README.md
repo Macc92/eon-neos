@@ -7,7 +7,8 @@ Updates
 ------
 
 When openpilot requires a NEOS update, you won't have to do anything. NEOS updates download in the background auotmatically, just like normal openpilot updates. This repo is for restoring or recovering your device.
-It is highly recoomended that you use a Mac or usb ubuntu burned on a flash drive using "Rufus", link below. Windows has friver issues and sometimes wont pick up the comma 2 in Fast Boot Mode.
+
+**It is highly recoomended that you use a Mac or usb ubuntu burned on a flash drive using "Rufus", link below. Windows has friver issues and sometimes wont pick up the comma 2 in Fast Boot Mode.**
 
 https://rufus.ie/en/
 
@@ -15,8 +16,8 @@ https://rufus.ie/en/
 Restoring on macOS & Linux
 ------
 
-1. Connect your comma two (via a USB-C to USB-A cable) or EON Gold (via a USB-mini-B to USB-A cable) to your computer in FastBoot Mode
-2. FastBoot Mode - Hold Volume down + power, when it vibrates elease the power button. Dont release the volume down button until you see fastboot mode.
+1. Connect your comma two (via a USB-C to USB-A cable) or EON Gold (via a USB-mini-B to USB-A cable) to your computer in **FastBoot Mode**
+2. **FastBoot Mode** - Hold Volume down + power, when it vibrates elease the power button. Dont release the volume down button until you see fastboot mode.
 3. Open a terminal 
 4. Run "sudo apt install git"
 5. Clone this repo `git clone https://github.com/commaai/eon-neos.git`, then `cd eon-neos`
@@ -24,7 +25,7 @@ Restoring on macOS & Linux
 7. Put your device into fastboot mode by turning off your device, then holding volume down + power.
 8. Run `./flash.sh` DO NOT DISCONNECT THE DEVICE!
 
-You will also need to install python 3 to run the scripts involved.
+You will also need to install python 3 to run the 2 scripts involved.
 
 https://realpython.com/installing-python/#how-to-install-on-ubuntu-and-linux-mint
 

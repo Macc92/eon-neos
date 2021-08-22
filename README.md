@@ -8,9 +8,10 @@ Updates
 
 When openpilot requires a NEOS update, you won't have to do anything. NEOS updates download in the background auotmatically, just like normal openpilot updates. This repo is for restoring or recovering your device.
 
-**It is highly recoomended that you use a Mac or usb ubuntu burned on a flash drive using "Rufus", link below. Windows has friver issues and sometimes wont pick up the comma 2 in Fast Boot Mode.**
+**It is highly recoomended that you use a Mac or usb installation of ubuntu on a flash drive. You can do this using "Rufus", link below. Windows has driver issues and sometimes wont pick up the comma 2 in Fast Boot Mode. Windows also has problems writing the image to the Comma 2**
 
-https://rufus.ie/en/
+Ubuntu - https://ubuntu.com/download/desktop
+Rufus - https://rufus.ie/en/
 
 
 Restoring on macOS & Linux

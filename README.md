@@ -8,14 +8,17 @@ Updates
 
 When openpilot requires a NEOS update, you won't have to do anything. NEOS updates download in the background auotmatically, just like normal openpilot updates. This repo is for restoring or recovering your device.
 
-**It is highly recoomended that you use a Mac or usb installation of ubuntu on a flash drive. You can do this using "Rufus", link below. Windows has driver issues and sometimes wont pick up the comma 2 in Fast Boot Mode. Windows also has problems writing the image to the Comma 2**
+**It is highly recomended that you use a Mac or usb installation of Ubuntu. You can do this using "Rufus", link below and downloading the Ubuntu .iso file. Windows has driver issues and sometimes wont pick up the comma 2 in Fast Boot Mode. Windows also has problems writing the image to the Comma 2**
 
 Only some USB-C to USB-A cables will work, so you may have to try multiple. If an android device shows up in device manager(Windows) you have a good cable.
 
-Ubuntu - https://ubuntu.com/download/desktop
+Ubuntu ISO - https://ubuntu.com/download/desktop
 
 Rufus - https://rufus.ie/en/
-
+1. Press "Select" and navigate to the Ubuntu ISO you donwloaded.  
+*Click "Show Avanced Drive Properties" and click the checkbox for "List USB HardDrives.
+2. Select the drive you want to install Ubuntu under the "Device" dropdown. **All data will be erased!**
+3. Click start and say "Yes" to any promts.
 
 Restoring on macOS & Linux
 ------

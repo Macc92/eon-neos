@@ -20,12 +20,13 @@ Restoring on macOS & Linux
 2. **FastBoot Mode** - Hold Volume down + power, when it vibrates elease the power button. Dont release the volume down button until you see fastboot mode.
 3. Open a terminal 
 4. Run "sudo apt install git"
-5. Clone this repo `git clone https://github.com/commaai/eon-neos.git`, then `cd eon-neos`
-6. Run `./download.py`
-7. Put your device into fastboot mode by turning off your device, then holding volume down + power.
-8. Run `./flash.sh` DO NOT DISCONNECT THE DEVICE!
+5. Install Python 3 if you havent already, link below.
+6. Clone this repo `git clone https://github.com/commaai/eon-neos.git`, then `cd eon-neos`
+7. Run `./download.py`
+8. Put your device into fastboot mode by turning off your device, then holding volume down + power.
+9. Run `./flash.sh` DO NOT DISCONNECT THE DEVICE!
 
-You will also need to install python 3 to run the 2 scripts involved.
+You need to python 3 to run the 2 scripts involved. Follow this link for instructions:
 
 https://realpython.com/installing-python/#how-to-install-on-ubuntu-and-linux-mint
 

@@ -11,6 +11,7 @@ When openpilot requires a NEOS update, you won't have to do anything. NEOS updat
 **It is highly recoomended that you use a Mac or usb installation of ubuntu on a flash drive. You can do this using "Rufus", link below. Windows has driver issues and sometimes wont pick up the comma 2 in Fast Boot Mode. Windows also has problems writing the image to the Comma 2**
 
 Ubuntu - https://ubuntu.com/download/desktop
+
 Rufus - https://rufus.ie/en/
 
 
@@ -20,7 +21,7 @@ Restoring on macOS & Linux
 1. Connect your comma two (via a USB-C to USB-A cable) or EON Gold (via a USB-mini-B to USB-A cable) to your computer in **FastBoot Mode**
 2. **FastBoot Mode** - Hold Volume down + power, when it vibrates elease the power button. Dont release the volume down button until you see fastboot mode.
 3. Open a terminal 
-4. Run "sudo apt install git"
+4. Run 'sudo apt install git'
 5. Install Python 3 if you havent already, link below.
 6. Clone this repo `git clone https://github.com/commaai/eon-neos.git`, then `cd eon-neos`
 7. Run `./download.py`
@@ -29,7 +30,7 @@ Restoring on macOS & Linux
 
 You need to python 3 to run the 2 scripts involved. Follow this link for instructions:
 
-https://realpython.com/installing-python/#how-to-install-on-ubuntu-and-linux-mint
+Install Python Ubuntu: https://realpython.com/installing-python/#how-to-install-on-ubuntu-and-linux-mint
 
 
 Restoring on Windows

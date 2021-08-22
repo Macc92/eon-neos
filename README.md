@@ -10,6 +10,8 @@ When openpilot requires a NEOS update, you won't have to do anything. NEOS updat
 
 **It is highly recoomended that you use a Mac or usb installation of ubuntu on a flash drive. You can do this using "Rufus", link below. Windows has driver issues and sometimes wont pick up the comma 2 in Fast Boot Mode. Windows also has problems writing the image to the Comma 2**
 
+Only some USB-C to USB-A cables will work, so you may have to try multiple. If an android device shows up in device manager(Windows) you have a good cable.
+
 Ubuntu - https://ubuntu.com/download/desktop
 
 Rufus - https://rufus.ie/en/
